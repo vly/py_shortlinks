@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block title %}Add record{% end %}
+ 
+ {% block content %}
+        <FORM ACTION="/_create" METHOD=POST>
+        Shortlink:   <input type="text" name="shortlink">
+        Destination URL:  <input type="text" name="destination">
+                <input type="submit" value="Add" name="Submit"/>
+        </FORM>
+{% end %}

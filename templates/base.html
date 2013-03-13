@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>{% block title %}Default title{% end %}</title>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="header">
+			<div class="hgroup">
+				<h1>Short links</h1>
+			</div>
+		</div>
+
+		<div class="main col-6">
+			<div class="col-6 first">
+				{% block content %}
+		          <p></p>
+		        {% end %}
+			</div>
+		</div>
+	</div>
+</body>
